@@ -26,14 +26,14 @@
             <div class="col-sm-6 <%= (index%2 == 1) ? 'col-sm-offset-2 text-right' : '' %>">
                 <h3><%= title %></h3>
                 <p><%= description %></p>
-                <p class="project-urls"></p>
+                <div class="project-urls"></div>
                 <p class="tags"><%= tags.join(' ') %></p>
             </div>
         </div>
         </script>
 
         <script id="tmplProjectURL" type="text/html">
-            <a href="<%= url %>"><i class="icon-double-angle-right"></i> <%= text %></a>
+            <p><a href="<%= url %>"><i class="icon-double-angle-right"></i> <%= text %></a></
         </script>
 
         <div class="container">
@@ -51,7 +51,7 @@
             <div id="about">
                 <div class="jumbotron about-intro">
                     <h1>Hi, I am a <strong>software developer</strong>. I have <span id="exp-years">??</span> years of experience developing software. Currently I am <span id="current-status">studying Computer Science and Software Engineering at <acronym title="University of Texas at Dallas"><a href="http://www.utdallas.edu">UTD</a></acronym>.</span></h1>
-                    <p>This is my portfolio website. This is where I display any work I have done in my time as a software developer. Feel free to browse my <a href="#projects">projects</a> or check out my <a href="#resume">resume</a>. </p>
+                    <p>This is my portfolio website. This is where I display any work I have done in my time as a software developer. Feel free to browse my <a href="#projects">projects</a> or check out my <a href="#resume">resume</a>.</p>
                 </div>
 
             </div>
