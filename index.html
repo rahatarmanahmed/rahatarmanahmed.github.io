@@ -14,10 +14,27 @@
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/jquery.fittext.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/angular.min.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <script src="js/backbone-min.js"></script>
         <script src="js/main.js"></script>
     </head>
     <body>
+
+        <script id="tmplProject" type="text/html">
+            <div class="row row-project">
+            <div class="col-sm-4 <%= (index%2 == 1) ? 'pull-right-no-mobile' : '' %>"><img src="<%= thumbnail %>" alt="<%= title %>" class="thumb"></div>
+            <div class="col-sm-6 <%= (index%2 == 1) ? 'col-sm-offset-2 text-right' : '' %>">
+                <h3><%= title %></h3>
+                <p><%= description %></p>
+                <p class="project-urls"></p>
+                <p class="tags"><%= tags.join(' ') %></p>
+            </div>
+        </div>
+        </script>
+
+        <script id="tmplProjectURL" type="text/html">
+            <a href="<%= url %>"><i class="icon-double-angle-right"></i> <%= text %></a>
+        </script>
 
         <div class="container">
             <div class="row">
@@ -41,20 +58,8 @@
 
             <hr/>
 
-            <div id="projects" ng-app="projects" ng-controller="ProjectCtrl">
+            <div id="projects">
                 <p class="section-title">Projects</p>
-
-                    <div class="row row-project" ng-repeat="project in projects">
-                        <div class="col-sm-4" ng-class="{'pull-right-no-mobile': ($index % 2 == 1)}"><img class="thumb" ng-src="{{project.thumbnail}}"></div>
-                        <div class="col-sm-6" ng-class="{'col-sm-offset-2 text-right': ($index % 2 == 1)}">
-                            <h3>{{ project.title }}</h3>
-                            <p>{{ project.description }}</p>
-                            <p ng-repeat="(text, url) in project.links">
-                                <a ng-href="{{url}}"><i class="icon-double-angle-right"></i> {{ text }}</a>
-                            </p>
-                            <p class="tags">{{ project.tags.join(' ') }}</p>
-                        </div>
-                    </div>
             </div>
 
             <hr/>

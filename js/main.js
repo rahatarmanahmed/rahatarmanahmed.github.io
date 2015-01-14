@@ -8,18 +8,28 @@ $(document).ready(function(){
 	}, 100);
 });
 
-// yeah angular! lets go!
-angular.module("projects", [])
-.controller("ProjectCtrl", function($scope, $http){
-	$scope.projects = [];
-	$http.get("js/projects.json")
-	.then(function(res){
-		for(var k=0;k<res.data.length;k++)
-		{
-			res.data[k].tags = res.data[k].tags.map(function(val){
-				return "#"+val
-			});
+// backbone.js oh hell yeah
+$(function(){
+	var projectTemplate = _.template($('#tmplProject').html());
+	var projectURLTemplate = _.template($('#tmplProjectURL').html())
+
+	var ProjectView = Backbone.View.extend({
+		render: function() {
+			this.$el.html(projectTemplate(this.model));
+			var linkEl = this.$el.find('.project-urls');
+			for(var link in this.model.links)
+				linkEl.append(projectURLTemplate({text: link, url: this.model.links[link]}));
 		}
-		$scope.projects = res.data;
+	})
+
+	$.getJSON('js/projects.json').then(function(res){
+		res.forEach(function(project, i){
+			project.index = i;
+			project.tags = project.tags.map(function(tag){return '#'+tag;});
+			var view = new ProjectView({model: project});
+			view.render();
+			$('#projects').append(view.el);
+		})
 	});
-});
+
+})
