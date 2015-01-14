@@ -1,0 +1,157 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,700);
+
+*
+{
+	font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: rgba(0,0,0,0);
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body
+{
+	background-color: #4B92DB;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+a
+{
+	color: #FFF;
+}
+
+p
+{
+	font-weight: 300;
+}
+
+.name
+{
+	font-size: 70px;
+}
+
+.first-name
+{
+	font-weight: 700;
+}
+
+.last-name
+{
+	font-weight: 100;
+}
+
+hr
+{
+	border: 0;
+	border-bottom: 1px dashed #FFF;
+	/*background: rgba(0,0,0,0);*/
+}
+
+#main-nav
+{
+	/*line-height: 0;*/
+	border-top: 1px dashed #FFF;
+	border-bottom: 1px dashed #FFF;
+}
+
+#main-nav div
+{
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.nav-item a
+{
+	display: block;
+	padding-top:	10px;
+	padding-bottom: 10px;
+}
+
+.nav-item a:hover
+{
+	text-decoration: none;
+	background: rgba(255,255,255,0.3);
+}
+
+.jumbotron
+{
+	background-color: rgba(0,0,0,0);
+	margin-bottom: 0;
+}
+
+.about-intro h1
+{
+	font-size: 40px;
+	font-weight: 100;
+	line-height: 1.4;
+	margin-top: 0;
+}
+
+.about-intro p
+{
+	margin-top: 30px;
+}
+
+.about-intro strong
+{
+	font-weight: 400;
+}
+
+.section-title
+{
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 20px;
+}
+
+img.thumb
+{
+	border-style:none;
+    border-radius:15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:200px;
+}
+
+#contact a
+{
+	font-size: 100px;
+	text-decoration: none;
+}
+
+.project-link
+{
+	margin-top: 10px;
+}
+
+.row-project
+{
+	margin-bottom: 20px;
+}
+
+.row-project p
+{
+	font-size: 18px;
+}
+
+.tags
+{
+	color: #95BDE6
+}
+
+.pull-right-no-mobile
+{
+	float: right;
+}
+
+@media (max-width: 767px) {
+    .pull-right-no-mobile {
+        float:none;
+    }
+}
