@@ -3,7 +3,7 @@
         "title": "TunFall",
         "description": "An endless falling game in Unity.",
         "links": {
-            "@ itch.io": "rahat.itch.io/tunfall",
+            "@ itch.io": "http://rahat.itch.io/tunfall",
             "@ Google Play": "https://play.google.com/store/apps/details?id=com.freek.tunfall",
             "@ Github": "https://github.com/rahatarmanahmed/TunFall"
         },
@@ -57,7 +57,7 @@
         "title": "Kurea",
         "description": "A spiritual port of our Vivio IRC bot to Node.js.",
         "links": {
-        	"@ Github": "https://github.com/kellyirc/kurea/" 
+        	"@ Github": "https://github.com/kellyirc/kurea/"
         },
         "tags": [
         	"nodejs",
@@ -72,7 +72,7 @@
         "title": "rahatah.me/d v1",
         "description": "The original version of this website, before I redesigned it.",
         "links": {
-        	"rahatah.me/d_v1": "http://rahat.seiyria.com/d_v1" 
+        	"rahatah.me/d_v1": "http://rahat.seiyria.com/d_v1"
         },
         "tags": [
         	"html-css",
