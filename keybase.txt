@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/rahat
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rahatah.me
+  * I am rahat (https://keybase.io/rahat) on keybase.
+  * I have a public key with fingerprint 0C5F C6C8 2C1C 2335 F0DE  FC59 6C3C 6FFC C15B 349F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "0c5fc6c82c1c2335f0defc596c3c6ffcc15b349f",
+            "host": "keybase.io",
+            "key_id": "6C3C6FFCC15B349F",
+            "uid": "b221484b0dadc133aceeebd49e17ad19",
+            "username": "rahat"
+        },
+        "merkle_root": {
+            "ctime": 1428787927,
+            "hash": "707029f51ac9405db832378f51a45c0cd6f19b0833da54fa265e3a945a70623392fd6dcc36dbdde12ef982e6da950b5c1516d66c16fa949dbfeb990a73dbef9c",
+            "seqno": 197102
+        },
+        "service": {
+            "hostname": "rahatah.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1428788045,
+    "expire_in": 157680000,
+    "prev": "ce5811d5ddbecd82f2b523b828d37a38a434aa4bb3553cda40790db0635ec7bc",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkm1QVFUYx3dXSZd0XBWLAU261igjg/f9ZQcnjFwcs6bVJbVmWs7bZa+77t3u
+riSCmkxKOONbKlamNmoqoKKZxRIRkMT7SC8rNn3IpGiYIhUd/cJo9zI2o/fTPc/z
+e/7n/z/n7J48zuawh3L00ZY3+SP27iFoK8jc+2opBXVcQrlLKRTSSDhm/YXBWkK5
+qSApgSBKsjU9I6xjkr0mmvGQyaKKiRHV9LBJ0dlStkRtzLJwa1jVwkXEiBiapUXR
+SFCRiGQWMYjlOEGlMVGRoIiIQ6KqIsQIkOMV1ZQM6NHYY7tSY5p+DZtVMY/LEz2e
+vDxGeNHkPWZv3VgDsizDyzykMcCI4TiACCEQ8wphJIAZxQKjxHgYyQABELPMriVG
+MET8hq6PJUYxzeozPCtLsqSwkmkHRAPmhERLNKuoAgOQwtMChjLHcpJsFXgB0QiL
+KqNAWuY4DAReBawoEA4ovAAkWjQTK6yKRYwQJ2KIMWFYoioyS0QMFIGGgpmfEbEo
+IkZUzSkFQ5VARaGBxGFoosj0HyVvh3XTnCIxNLvRWhvFGiKWb+vMHo0GAtnmIouK
+GHpMR3rIrAdisYjbihwriVjcOwT6xxROIeKHWhib9/XohTIm+thxyDQvZFFkfUQz
+iF+zCEESZdr8rH1IsamJiCAzDBaw6RlhmVVZKLAclFkZcxLgZMBzPAA8hJwgcAgD
+npYUGkNa5ASCJPhISN70CYpMyahWFAaxdQahNlY6Zo632R22J5Ic1ou1JTtd/z/j
+uYunPPD2yX3HEtK44LLm8hVLK96d8WdgZLghpM7/8dBVX/S9bcMpdynvzXi60Xtb
+bpl+s0EIruxvaivLeMDdP/eVL6eiySl0OaKfTUxzzJ48fUF+2paVqzv7e1zM17Wz
+4MdL636/8k2Vw3GQr7x8rber+cYZx51pfXHu9FM/925DE0Hs3gZf3eKqxv2uVfam
+Ml9FaM+yt1ydV3NH6x1nDwTanOWnp14Zvg1GCzy9oP7qkmf3VZ2/32Xozms5bmU5
+P2d9Mauwe9SWeGMivrfmwmG2b+e3VHr5kG937i7fBdmftXVz5uFgT9qCxPO7ju27
+6ETb48d3pPe5oy3xDoGdd//SSC3JnPR9buf02b8tqj9Rsarg3OFJWd6w1/vrFg/Z
+s0SfMOvWy1tT06tf6f48c0kQjnzYP9jR1uA7m5ZYbRt0bes54FjALPzFfnrOkak3
+Wqtreg89Oa1v96bCe1MGj0f6/y1iavStrubugQ39T09wnpiZ2tN+KYPa/E/7nBOb
+UhLJtSsWXzSGKk9WzgU1ro7qJPiT99TJi89RQ+2FrXWFrw9rGc+Qgb9TnbPcd0tT
+rtV9lz9/e+Ruvq+86tMbMz5p7faML6w5WHq0bN6d/XVa4+Q/Fjb/0Jr50l+LBhIF
+X+aPfHQ9en7K5RdulS9bbr/eNLHsjdyjBTu/SLLZz8xNe/81+5Y1rR+kdJKc1cn/
+AQ==
+=hgbP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rahat
+
+==================================================================
