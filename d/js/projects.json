@@ -70,9 +70,10 @@
 
     {
         "title": "rahatah.me/d v1",
-        "description": "The original version of this website, before I redesigned it.",
+        "description": "The original version of this website, before I redesigned it. (OFFLINE)",
         "links": {
-        	"rahatah.me/d_v1": "http://rahat.seiyria.com/d_v1"
+        	"Screenshot: index": "http://rahatarmanahmed.github.io/d/img/OldSiteScreenshots/d_v1_index.jpg",
+            "Screenshot: projects": "http://rahatarmanahmed.github.io/d/img/OldSiteScreenshots/d_v1_projects.jpg"
         },
         "tags": [
         	"html-css",
@@ -112,9 +113,9 @@
 
     {
         "title": "djPixzel",
-        "description": "A website showcasing some amazing tracks produced by djPixzel.",
+        "description": "A website showcasing some amazing tracks produced by djPixzel. (OFFLINE)",
         "links": {
-        	"djPixzel": "http://djpixzel.seiyria.com/"
+        	"Screenshot": "http://rahatarmanahmed.github.io/d/img/OldSiteScreenshots/djpixzel.jpg"
         },
         "tags": [
         	"html-css",
