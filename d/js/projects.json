@@ -1,5 +1,19 @@
 [
     {
+        "title": "ＳＣＲＥＡＭ  ＢＯＴ",
+        "description": "A website that times how long you can ＳＣＲＥＡＭ.",
+        "links": {
+            "@ ScreamBot": "http://rahatah.me/ScreamBot/",
+            "@ Github": "https://github.com/rahatarmanahmed/ScreamBot"
+        },
+        "tags": [
+            "html-css",
+            "javascript",
+            "jquery"
+        ],
+        "thumbnail": "img/screamBotThumb.gif"
+    },
+    {
         "title": "TunFall",
         "description": "An endless falling game in Unity.",
         "links": {
