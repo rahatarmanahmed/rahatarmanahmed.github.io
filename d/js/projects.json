@@ -42,10 +42,10 @@
         "thumbnail": "img/lgenizaThumb.png"
     },
     {
-        "title": "Material CircularProgressView",
+        "title": "CircularProgressView",
         "description": "A Material design circular progress bar for Android, supporting older versions.",
         "links": {
-            "@ Github": "https://github.com/rahatarmanahmed/MaterialCircularProgressView"
+            "@ Github": "https://github.com/rahatarmanahmed/CircularProgressView"
         },
         "tags": [
             "android",
