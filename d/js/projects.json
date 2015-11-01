@@ -1,5 +1,19 @@
 [
     {
+        "title": "Letterboxd Diary Heatmap",
+        "description": "A heatmap visualization of your Letterboxd diary.",
+        "links": {
+            "@ ScreamBot": "http://rahatah.me/letterboxd-diary-heatmap/",
+            "@ Github": "https://github.com/rahatarmanahmed/letterboxd-diary-heatmap"
+        },
+        "tags": [
+            "html-css",
+            "javascript",
+            "react"
+        ],
+        "thumbnail": "img/letterboxdThumb.png"
+    },
+    {
         "title": "ＳＣＲＥＡＭ  ＢＯＴ",
         "description": "A website that times how long you can ＳＣＲＥＡＭ.",
         "links": {
