@@ -3,7 +3,7 @@
         "title": "Letterboxd Diary Heatmap",
         "description": "A heatmap visualization of your Letterboxd diary.",
         "links": {
-            "@ ScreamBot": "http://rahatah.me/letterboxd-diary-heatmap/",
+            "@ Letterboxd Diary Heatmap": "http://rahatah.me/letterboxd-diary-heatmap/",
             "@ Github": "https://github.com/rahatarmanahmed/letterboxd-diary-heatmap"
         },
         "tags": [
@@ -23,7 +23,7 @@
         "tags": [
             "html-css",
             "javascript",
-            "jquery"
+            "web-audio-api"
         ],
         "thumbnail": "img/screamBotThumb.gif"
     },
@@ -56,10 +56,10 @@
         "thumbnail": "img/lgenizaThumb.png"
     },
     {
-        "title": "Material CircularProgressView",
+        "title": "CircularProgressView",
         "description": "A Material design circular progress bar for Android, supporting older versions.",
         "links": {
-            "@ Github": "https://github.com/rahatarmanahmed/MaterialCircularProgressView"
+            "@ Github": "https://github.com/rahatarmanahmed/CircularProgressView"
         },
         "tags": [
             "android",
