@@ -1,4 +1,18 @@
 [
+	{
+        "title": "Low Battery Much?",
+        "description": "Twitter bot that replies to phone screenshots with low battery indicators.",
+        "links": {
+            "@ Twitter": "https://twitter.com/lowbatterymuch/",
+            "@ Github": "https://github.com/rahatarmanahmed/lowbatterymuch"
+        },
+        "tags": [
+            "nodejs",
+            "javascript",
+            "twitter"
+        ],
+        "thumbnail": "img/lowbatterymuchThumb.png"
+    },
     {
         "title": "Letterboxd Diary Heatmap",
         "description": "A heatmap visualization of your Letterboxd diary.",
