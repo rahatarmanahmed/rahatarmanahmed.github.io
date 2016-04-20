@@ -1,6 +1,20 @@
 [
+    {
+        "title": "@oh_hell_yah",
+        "description": "Twitter bot that says \"oh hell yeah baby\" a bunch, inspired by @fart.",
+        "links": {
+            "@ Twitter": "https://twitter.com/oh_hell_yah/",
+            "@ Github": "https://github.com/rahatarmanahmed/ohhellyeah.js"
+        },
+        "tags": [
+            "nodejs",
+            "javascript",
+            "twitter"
+        ],
+        "thumbnail": "img/ohhellyeahThumb.jpg"
+    },
 	{
-        "title": "Low Battery Much?",
+        "title": "@lowbatterymuch",
         "description": "Twitter bot that replies to phone screenshots with low battery indicators.",
         "links": {
             "@ Twitter": "https://twitter.com/lowbatterymuch/",
