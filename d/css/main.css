@@ -20,7 +20,7 @@ body
 
 a, body
 {
-	color: #7e794e;
+	color: #d0c45d;
 }
 
 a:hover {
@@ -51,12 +51,12 @@ p
 hr
 {
 	border: 0;
-	border-bottom: 1px dashed #7e794e;
+	border-bottom: 1px dashed #d0c45d;
 }
 
 #header {
 	margin-bottom: 30px;
-	border-bottom: 1px dashed #7e794e;
+	border-bottom: 1px dashed #d0c45d;
 }
 
 #nav
@@ -147,7 +147,7 @@ img.thumb
     }
 
 	#nav {
-		border-top: 1px dashed #7e794e;
+		border-top: 1px dashed #d0c45d;
 	}
 }
 
