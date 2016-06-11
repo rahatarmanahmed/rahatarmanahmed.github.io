@@ -1,12 +1,7 @@
 // lol old jquery code
-theDayItAllBegan = new Date(2008, 8, 27).getTime();
-
-$(document).ready(function(){
-	$('.name').fitText(0.8, {maxFontSize: '90px'});
-	setInterval(function() {
-		$('#exp-years').html((((new Date()).getTime() - theDayItAllBegan) / 3.15569e10).toPrecision(9));
-	}, 100);
-});
+// $(document).ready(function(){
+// 	$('.name').fitText(0.8, {maxFontSize: '90px'});
+// });
 
 // backbone.js oh hell yeah
 $(function(){

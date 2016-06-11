@@ -13,15 +13,19 @@ h1, h2, h3, h4, h5, h6
 
 body
 {
-	background-color: #4B92DB;
-	color: white;
+	background-color: #352b31;
 	padding-top: 50px;
-	padding-bottom: 20px;
+	margin-bottom: 50vh;
 }
 
-a
+a, body
 {
-	color: #FFF;
+	color: #7e794e;
+}
+
+a:hover {
+	color: #a8a271;
+	text-decoration: none;
 }
 
 p
@@ -31,7 +35,7 @@ p
 
 .name
 {
-	font-size: 70px;
+	font-size: 50px;
 }
 
 .first-name
@@ -47,18 +51,22 @@ p
 hr
 {
 	border: 0;
-	border-bottom: 1px dashed #FFF;
-	/*background: rgba(0,0,0,0);*/
+	border-bottom: 1px dashed #7e794e;
 }
 
-#main-nav
+#header {
+	margin-bottom: 30px;
+	border-bottom: 1px dashed #7e794e;
+}
+
+#nav
 {
-	/*line-height: 0;*/
-	border-top: 1px dashed #FFF;
-	border-bottom: 1px dashed #FFF;
+	line-height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
-#main-nav div
+#nav div
 {
 	font-weight: 100;
 	font-size: 20px;
@@ -74,6 +82,7 @@ hr
 .nav-item a:hover
 {
 	text-decoration: none;
+	color: #352b31;
 	background: rgba(255,255,255,0.3);
 }
 
@@ -81,24 +90,6 @@ hr
 {
 	background-color: rgba(0,0,0,0);
 	margin-bottom: 0;
-}
-
-.about-intro h1
-{
-	font-size: 40px;
-	font-weight: 100;
-	line-height: 1.4;
-	margin-top: 0;
-}
-
-.about-intro p
-{
-	margin-top: 30px;
-}
-
-.about-intro strong
-{
-	font-weight: 400;
 }
 
 .section-title
@@ -142,7 +133,7 @@ img.thumb
 
 .tags
 {
-	color: #95BDE6
+	opacity: .5;
 }
 
 .pull-right-no-mobile
@@ -154,4 +145,15 @@ img.thumb
     .pull-right-no-mobile {
         float:none;
     }
+
+	#nav {
+		border-top: 1px dashed #7e794e;
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.name {
+		/* Fix weird alignment of name? */
+		margin-left: -60px;
+	}
 }
