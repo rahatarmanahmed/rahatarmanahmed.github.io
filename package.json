@@ -4,7 +4,13 @@
   "description": "*rahat voice* my website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf d",
+    "copy": "cpx src/index.html d",
+    "img": "imagemin src/img/* --out-dir=d/img/",
+    "prebuild": "npm run clean",
+    "build": "npm run copy && npm run img && npm run css",
+    "css": "uncss -s ../node_modules/tachyons/css/tachyons.css src/index.html | cssnano > d/style.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +28,11 @@
   },
   "homepage": "https://github.com/rahatarmanahmed/rahatarmanahmed.github.io#readme",
   "dependencies": {
+    "tachyons": "^4.5.3"
+  },
+  "devDependencies": {
+    "imagemin-cli": "^3.0.0",
+    "rimraf": "^2.5.4",
+    "uncss": "^0.14.1"
   }
 }
