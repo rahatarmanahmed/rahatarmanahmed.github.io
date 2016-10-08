@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rimraf d",
-    "copy": "cpx src/index.html d",
+    "clean": "rimraf d/*",
+    "html": "htmlminify src/index.html > d/index.html",
     "img": "imagemin src/img/* --out-dir=d/img/",
     "prebuild": "npm run clean",
-    "build": "npm run copy && npm run img && npm run css",
+    "build": "npm run html && npm run img && npm run css",
     "css": "uncss -s ../node_modules/tachyons/css/tachyons.css src/index.html | cssnano > d/style.css"
   },
   "repository": {
@@ -31,6 +31,7 @@
     "tachyons": "^4.5.3"
   },
   "devDependencies": {
+    "html-minify": "^0.3.2",
     "imagemin-cli": "^3.0.0",
     "rimraf": "^2.5.4",
     "uncss": "^0.14.1"
