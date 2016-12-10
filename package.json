@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf d/*",
-    "html": "htmlminify src/index.html > d/index.html",
+    "html": "htmlminify src/index.html > d/index.html && htmlminify src/resume.html > d/resume.html",
     "img": "imagemin src/img/* --out-dir=d/img/",
     "prebuild": "npm run clean",
     "build": "npm run html && npm run img && npm run css",
-    "css": "uncss -s ../node_modules/tachyons/css/tachyons.css src/index.html | cssnano > d/style.css"
+    "css": "uncss -s ../node_modules/tachyons/css/tachyons.css src/index.html src/resume.html | cssnano > d/style.css"
   },
   "repository": {
     "type": "git",

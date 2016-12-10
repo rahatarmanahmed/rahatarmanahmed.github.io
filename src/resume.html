@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @page { size: 8.5in 11in; margin: 1in 1.5in }
+
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
+
+    html {
+      font-size: 14px;
+    }
+
+    ul li  {
+      list-style-position:inside;
+    }
+
+    .f7 {
+      font-size: .75rem;
+    }
+
+    .roboto {
+      font-famiy: 'Roboto', sans-serif;
+    }
+
+    .bb--dashed {
+      border-bottom-style: dashed;
+    }
+  </style>
+</head>
+<body class="resume black bg-near-white">
+  <main class="w-100 flex justify-center roboto">
+  <div class="w-page">
+
+    <p class="no-print f6 fw1 pv4 mb4 bb--dashed bw1 gray tc">Print this page if you need a PDF or hard copy!</p>
+
+    <header class="flex flex-row justify-between items-end tc">
+      <h1 class="f2 fw7 mv0">Rahat Ahmed</h1>
+      <div class="tr flex flex-column justify-around">
+        <h2 class="f6 fw1 mv0"><a class="link black" href="mailto:rahatarmanahmed@gmail.com">rahatarmanahmed@gmail.com</a></h2>
+        <h2 class="f6 fw1 mv0"><a class="link black" href="http://rahatah.me/d">http://rahatah.me/d</a></h2>
+      </div>
+    </header>
+
+    <article>
+      <section>
+        <h3 class="f7 ttu tracked bt pt1 mv3">Education</h3>
+
+        <div class="flex flex-row justify-between mb1">
+          <h4 class="f5 fw6 mv0">University of Texas at Dallas</h4>
+          <h5 class="f6 fw1 mv0">Aug 2012&ndash;Aug 2015</h5>
+        </div>
+        <div class="flex flex-row justify-between mb1">
+          <p class="f6 fw1 mv0">B.S. <i>summa cum laude</i>, Computer Science</p>
+          <p class="f6 fw1 mv0">GPA: 3.98</p>
+        </div>
+      </section>
+
+      <section class="mt3">
+        <h3 class="f7 ttu tracked bt pt1 mv3">Skills</h3>
+        <div class="flex mb1 lh-copy">
+          <h4 class="f6 mv0"><div class="w4">Languages</div></h4>
+          <p class="f6 fw1 mv0">C++, C#, Java, JavaScript, CoffeeScript</p>
+        </div>
+
+        <div class="flex mb1 lh-copy">
+          <h4 class="f6 mv0"><div class="w4">Technologies</div></h4>
+          <p class="f6 fw1 mv0">Android, HTML, CSS, jQuery, Lodash, Bootstrap, Angular,
+	React, Redux, Node.js, Express, SQL, MongoDB</p>
+        </div>
+
+        <div class="flex lh-copy">
+          <h4 class="f6 mv0"><div class="w4">Tools</div></h4>
+          <p class="f6 fw1 mv0">AVA, Bower, Browserify, Git, Gulp, Grunt, Mocha, NPM, SVN,
+	Yeoman</p>
+        </div>
+      </section>
+
+      <section class="mt3">
+        <h3 class="f7 ttu tracked bt pt1 mv3">Work Experience</h3>
+
+        <div>
+          <div class="flex flex-row justify-between mb1">
+            <h4 class="f5 fw6 mv0">Intuit <small class="ml2 normal">Front End UI Developer</small></h4>
+            <h5 class="f6 fw1 mv0">Aug 2016&ndash;Ongoing</h5>
+          </div>
+          <ul class="f6 fw1 mv0 pa0 lh-copy">
+            <li>Developed internal Angular tools for tax analyst programmers</li>
+            <li>Worked as part of and coordinated between multiple Agile teams</li>
+          </ul>
+        </div>
+
+        <div class="mt3">
+          <div class="flex flex-row justify-between mb1">
+            <h4 class="f5 fw6 mv0">Form.IO <small class="ml2 normal">Full-stack Developer</small></h4>
+            <h5 class="f6 fw1 mv0">May 2015&ndash;Jan 2016</h5>
+          </div>
+          <ul class="f6 fw1 mv0 pa0 lh-copy">
+            <li>Developed & maintained MEAN stack application</li>
+            <li>Implemented core features, e.g. OAuth and offline support</li>
+            <li>Contributed to company’s open source repositories</li>
+            <li>Wrote tests for Continuous Integration</li>
+            <li>Improved build process of front-end software</li>
+          </ul>
+        </div>
+
+        <div class="mt3">
+          <div class="flex flex-row justify-between mb1">
+            <h4 class="f5 fw6 mv0">Verizon <small class="ml2 normal">Application Developer Intern</small></h4>
+            <h5 class="f6 fw1 mv0">Jun 2014&ndash;Aug 2014</h5>
+          </div>
+          <ul class="f6 fw1 mv0 pa0 lh-copy">
+            <li>Created SQL queries to collect Oracle server benchmark data</li>
+            <li>Visualized data in ConceptWave benchmark reporting tool</li>
+          </ul>
+        </div>
+
+        <div class="mt3">
+          <div class="flex flex-row justify-between mb1">
+            <h4 class="f5 fw6 mv0">UT Dallas <small class="ml2 normal">Research Assistant</small></h4>
+            <h5 class="f6 fw1 mv0">May 2015&ndash;Aug 2015</h5>
+          </div>
+          <ul class="f6 fw1 mv0 pa0 lh-copy">
+            <li>Created VR experience in Unity for tactile gesture hardware</li>
+            <li>Used motion capture lab to capture human animations</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="mt3">
+        <h3 class="f7 ttu tracked bt pt1 mv3">Projects</h3>
+
+        <div class="mb2">
+          <h4 class="f5 fw6 mt0 mb1">Squelch</h4>
+          <p class="f6 fw1 mv0 lh-copy">A desktop IRC client implemented in Node.js on the Electron platform. Developed complete IRC protocol client implementation. Open Source.</p>
+        </div>
+
+        <div class="mb2">
+          <h4 class="f5 fw6 mt0 mb1"><a href="http://rahatah.me/lucasgeniza/" class="link black">http://rahatah.me/lucasgeniza/</a></h4>
+          <p class="f6 fw1 mv0 lh-copy">Promotional website for musician Lucas Geniza. Created a custom Soundcloud web player. Open Source.</p>
+        </div>
+
+        <div class="mb2">
+          <h4 class="f5 fw6 mt0 mb1"><a href="http://rahatah.me/d/" class="link black">http://rahatah.me/d/</a></h4>
+          <p class="f6 fw1 mv0 lh-copy">My personal website where I post all of my projects. Open Source.</p>
+        </div>
+
+      </section>
+
+    </article>
+  </div>
+</main>
+</body>
+</html>
