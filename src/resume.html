@@ -3,20 +3,28 @@
 <head>
   <title> </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/> -->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <style>
+    html {
+      font-size: 16px;
+    }
+
+    .w-page {
+      width: 6in;
+    }
+
     @page { size: 8.5in 11in; margin: 1in 1.5in }
 
     @media print {
       .no-print {
         display: none;
       }
-    }
 
-    html {
-      font-size: 14px;
+      html {
+        font-size: 14px;
+      }
     }
 
     ul li  {
