@@ -1,16 +1,13 @@
 {
   "name": "rahatarmanahmed.github.io",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "description": "*rahat voice* my website",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf d/*",
-    "html": "htmlminify src/index.html > d/index.html && htmlminify src/resume.html > d/resume.html",
-    "img": "imagemin src/img/* --out-dir=d/img/",
     "prebuild": "npm run clean",
-    "build": "npm run html && npm run img && npm run css",
-    "css": "uncss -s ../node_modules/tachyons/css/tachyons.css src/index.html src/resume.html | cssnano > d/style.css"
+    "build": "cp src/* d/"
   },
   "repository": {
     "type": "git",
@@ -22,19 +19,12 @@
     "ahmed"
   ],
   "author": "Rahat Ahmed",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rahatarmanahmed/rahatarmanahmed.github.io/issues"
   },
-  "homepage": "https://github.com/rahatarmanahmed/rahatarmanahmed.github.io#readme",
-  "dependencies": {
-    "tachyons": "^4.5.3"
-  },
+  "homepage": "https://rahatah.me/d",
+  "dependencies": {},
   "devDependencies": {
-    "cssnano-cli": "^1.0.5",
-    "html-minify": "^0.3.2",
-    "imagemin-cli": "^3.0.0",
-    "rimraf": "^2.5.4",
-    "uncss": "^0.16.2"
+    "rimraf": "^3.0.2"
   }
 }
