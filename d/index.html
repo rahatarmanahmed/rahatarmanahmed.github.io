@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <title>rahat ahmed</title>
-</header>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            margin: .5rem;
+        }
+        ul {
+            list-style-type: none;
+            display; inline;
+        }
+        li {
+            display: inline;
+        }
+        li:not(:last-child):after {
+            content: ' | ';
+        }
+    </style>
+</head>
 <body>
-    <h1>rahat ahmed</h1>
-    <header>
-        <h2>javascript developer</h2>
-        <ul>
-            <li><a href="https://github.com/rahatarmanahmed">github</a></li>
-            <li><a href="https://twitter.com/rahatarmanahmed">twitter</a></li>
-            <li><a href="mailto:rahatarmanahmed@gmail.com">email</a></li>
-            <li><a href="resume.html">résumé</a></li>
-        </ul>
-    </header>
+    <ul>
+        <li><a href="1.html">1</a></li>
+        <li><a href="resume.html">résumé</a></li>
+    </ul>
 </body>
 </html>

@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf d/*",
     "prebuild": "npm run clean",
-    "build": "cp src/* d/"
+    "build": "cp src/* d/",
+    "preserve": "npm run build",
+    "serve": "live-server d/",
+    "dev": "onchange 'src/**/*' -- npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,8 @@
   "homepage": "https://rahatah.me/d",
   "dependencies": {},
   "devDependencies": {
+    "live-server": "^1.2.1",
+    "onchange": "^6.1.0",
     "rimraf": "^3.0.2"
   }
 }
