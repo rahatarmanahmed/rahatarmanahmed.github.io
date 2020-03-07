@@ -1,0 +1,18 @@
+{
+    "name": "Rahat Ahmed",
+    "resume": "https://rahatah.me/d/resume",
+    "email": "rahatarmanahmed@gmail.com",
+    "img": {
+        "1x": "/me.jpg",
+        "2x": "/me_2x.jpg",
+        "4x": "/me_4x.jpg"
+    },
+    "twitter": {
+        "name": "rahatarmanahmed",
+        "url": "https://twitter.com/rahatarmanahmed"
+    },
+    "github": {
+        "name": "rahatarmanahmed",
+        "url": "https://github.com/rahatarmanahmed"
+    }
+}
