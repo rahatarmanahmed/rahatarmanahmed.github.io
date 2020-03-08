@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf d/*",
     "prebuild": "npm run clean",
-    "build": "cp src/* d/",
+    "build": "cp -r src/* d/",
     "preserve": "npm run build",
     "serve": "live-server d/",
     "dev": "onchange 'src/**/*' -- npm run build"
