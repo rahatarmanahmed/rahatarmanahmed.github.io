@@ -1,33 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>rahat ahmed</title>
     <style>
-        * {
+        html {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+            padding: 1rem;
+            background: honeydew;
+            color: darkslategray;
+            line-height: 1.5rem;
+        }
+        body {
+            width: 100%;
+        }
+        h1 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .nav {
+            list-style-type: none;
             margin: 0;
             padding: 0;
+            margin-bottom: 2rem;
         }
-        html {
-            margin: .5rem;
-        }
-        ul {
-            list-style-type: none;
+        .nav li {
             display: inline;
         }
-        li {
-            display: inline;
-        }
-        li:not(:last-child):after {
+        .nav li:not(:last-child):after {
             content: ' | ';
+        }
+        main {
+            max-width: 30rem;
+        }
+        body.centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+        a {
+            font-weight: bold;
+            color: darkslategray;
+            text-decoration: none;
+        }
+        a:hover {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='darkslategray' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+            background-position: 0 100%;
+            background-size: auto 6px;
+            background-repeat: repeat-x;
+            text-decoration: none;
+            padding-bottom: 3px;
+        }
+        .long-gap {
+            margin-bottom: 4rem;
         }
     </style>
 </head>
 <body>
-    <ul>
-        <li><a href="1.html">1</a></li>
-        <li><a href="2.html">2</a></li>
-        <li><a href="3.html">3</a></li>
-        <li><a href="resume.html">résumé</a></li>
-    </ul>
+    <main>
+        <h1>rahat ahmed</h1>
+        <ul class="nav">
+            <li><a href="https://letterboxd.com/rahatarmanahmed">letterboxd</a></li>
+            <li><a href="https://twitter.com/rahatarmanahmed">twitter</a></li>
+            <li><a href="mailto:rahatarmanahmed@gmail.com?subject=hello%20do%20you%20want%20to%20be%20friends&body=%5Bstart%20the%20beginning%20of%20a%20beautiful%20correspondence%5D">email</a></li>
+            <li><a href="resume.html">résumé</a></li>
+            <li><a href="img/raccoon.jpg">🦝</a></li>
+        </ul>
+        <p class="long-gap"><strong>software engineer at google</strong>. i can <a href="javascript:document.body.classList.contains('centered') ? document.body.classList.remove('centered') : document.body.classList.add('centered')">center divs</a> and make websites. currently working on internal web frameworks powering google's largets web apps with high performance requirements.</p>
+        <p>i have now two goals in life:</p>
+        <ul>
+            <li>become the noam chomsky of email (which is also noam chomsky). any and all correspondence is welcome</li>
+            <li>move to NYC. recruiters with software engineering openings... hello</li>
+        </ul>
+    </main>
 </body>
 </html>
